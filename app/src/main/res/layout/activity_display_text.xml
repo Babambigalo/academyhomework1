@@ -11,7 +11,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:id="@+id/display_StringExtra"
-        android:textSize="40sp"
+        android:textSize="@dimen/textViewReview_textSize"
         android:gravity="center"/>
 
     <Button

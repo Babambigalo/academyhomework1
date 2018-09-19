@@ -3,4 +3,6 @@
     <string name="hint_of_edit_text">Type your messages here...</string>
     <string name="button_preview">preview</string>
     <string name="button_email">email</string>
+    <string name="email_app_not_found">"No Email app found"</string>
+    <string name="user_did_not_type_message">Type your message please!</string>
 </resources>

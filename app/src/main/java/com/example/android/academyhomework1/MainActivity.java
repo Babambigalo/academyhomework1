@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import static com.example.android.academyhomework1.R.string.user_did_not_type_message;
+
 public class MainActivity extends AppCompatActivity {
     EditText editText;
     Button previewButton;
@@ -24,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 if (editText.getText().toString().length() != 0) {
                     openSecondActivity();
                 } else {
-                    Toast.makeText(MainActivity.this, "Type your message please!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, R.string.user_did_not_type_message, Toast.LENGTH_SHORT).show();
                 }
 
             }
